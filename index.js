@@ -13,6 +13,9 @@ app.use(cors({
     origin: "http://localhost:3000",
     withCredentials: true,
 }))
+app.get("/",(req,res)=>{
+   res.send("Hello world")
+})
 
 app.use('/api/v1',userRoute);
 
