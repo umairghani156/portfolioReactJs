@@ -10,7 +10,7 @@ dotenv.config()
 const PORT = process.env.PORT || 8000;
 
 app.use(cors({
-    origin: "https://signup-testing-df112.web.app",
+    origin: "https://umairahmedportfolio.vercel.app",
     withCredentials: true,
 }))
 app.get("/",(req,res)=>{
